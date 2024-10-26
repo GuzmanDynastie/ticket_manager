@@ -1,9 +1,9 @@
-# Proyecto WEB
+# CT-UNE
 ## Documentacion
 
 > Esta aplicación web está diseñada para gestionar y atender los tickets de la universidad UNE, proporcionando una plataforma eficiente y accesible para la presentación y seguimiento de solicitudes. Con la incorporación de un nuevo área llamada CT-UNE, nos aseguramos de que cada incidente o solicitud sea manejado por un equipo especializado, garantizando una atención oportuna y profesional. La aplicación facilitará la organización y priorización de tickets, permitiendo a los usuarios y al personal de CT-UNE interactuar de manera fluida y transparente, mejorando así la experiencia de todos los involucrados en la gestión de tickets universitarios.
 
-> Funcionalidades
+> Funcionalidades <br>
 En la aplicación existen dos roles fundamentales:
 + [Administrador](#administrador)
 + [Usuario General](#usuario-general)
