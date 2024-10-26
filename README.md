@@ -62,7 +62,7 @@ ____
 
 ### Colaboradores
 <a name="colaboradores"></a>
-- **Equipo de Desarrollo:** Este proyecto es llevado a cabo por un grupo de estudiantes y profesionales de la universidad UNE, enfocados en mejorar la gestión de tickets y la atención al usuario.
+- **Equipo de Desarrollo:** Este proyecto es llevado a cabo por un grupo de estudiantes de la universidad UNE, enfocados en mejorar la gestión de tickets y la atención al usuario.
   
 - **Colaboradores Clave:**
   - [Jesus Emmanuel Guzman Covarrubias](enlace1): Desarrollador Fullstack
