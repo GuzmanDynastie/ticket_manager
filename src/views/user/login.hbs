@@ -1,0 +1,42 @@
+<title>Sign In</title>
+
+<link rel="stylesheet" href="/css/login.css">
+
+
+{{#each Errors}}
+<div class="alert alert-danger alert-dismissible fade show" role="alert" id="alerta">
+    <strong><i class="fa-solid fa-triangle-exclamation"></i>&ensp;{{text}}</strong>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{{/each}}
+
+<div class="card" id="tarjeta" style="width: 26rem;">
+    <img src="/images/fondo_CT-UNE.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h3 class="card-title">Iniciar sesión</h3>
+        <hr>
+
+        <form action="/user/login" method="POST">
+            <div class="form-floating mb-3">
+                <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                    value="{{email}}" required>
+                <label for="floatingInput">Correo electrónico</label>
+            </div>
+            <div class="form-floating">
+                <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password"
+                    required>
+                <label for="floatingPassword">Contraseña</label>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input name="checkbox" type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Recordar mi cuenta</label>
+            </div>
+
+            <hr>
+            <button type="submit" class="btn btn-primary btn-lg"><span>Ingresar</span></button>
+        </form>
+        <p class="link-register">¿Aún no estás registrado? <a href="/register">¡Registrarse!</a>
+        </p>
+    </div>
+</div>
