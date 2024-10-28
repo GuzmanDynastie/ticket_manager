@@ -1,0 +1,133 @@
+<link rel="stylesheet" href="/css/dashboard/dashboard.css">
+<link rel="stylesheet" href="/css/dashboard/accordion.css">
+
+<div class="box-center">
+    <nav class="navbar navbar-expand-lg nav" style="background-color: #f6f7fb;">
+        <div class="container-fluid">
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                aria-controls="offcanvasScrolling"><span class="navbar-toggler-icon"></span></button>
+
+            <form class="d-flex">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Busqueda general"
+                        aria-label="Recipient's username" aria-describedby="button-addon2"
+                        style="width: 18rem; margin-left: 10px">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><span><i
+                                class="fa-solid fa-magnifying-glass"></i></span></button>
+                </div>
+            </form>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
+                <div class="container-user">
+                    <div class="dropdown">
+                        <button class="btn name-user" id="dropdownMenu2" data-bs-toggle="dropdown"
+                            style="border: none;">
+                            <label class="name-user" value="">Jesus Emmanuel Guzman Covarrubias</label>
+                            <p class="role-user">Prestador de servicio</p>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <li><a href="/" style="text-decoration: none;"><button class="dropdown-item" type="button"
+                                        style="font-weight: bold; color: #6c757d"><span style="margin-right: 5px;"><i
+                                                class="fa-solid fa-arrow-right-from-bracket"></i></span>Salir</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="offcanvas offcanvas-start text-canvas" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+    id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel" style="width: 18rem; background: #313a46">
+    <div class="offcanvas-header top-margin-zero">
+        <a href="/dashboard"><span class="span-logo"><img src="/images/CT UNE LOGO 01.png" alt=""></span></a>
+        <h4 class="offcanvas-title" id="offcanvasScrollingLabel">Universidad UNE</h4>
+        <h4></h4>
+    </div>
+
+
+    <div class="offcanvas-body">
+        <strong>
+            <p class="SIG">Sistema Integral de Gestión</p>
+        </strong>
+
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <strong><span><i class="fa-solid fa-computer"></i></span> Equipos</strong>
+                    <span>
+                        <i class="fa-solid fa-chevron-up"></i>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="accordion-body-content">
+                        <ul>
+                            <a class="link-SIG" href=""><strong><span><i
+                                            class="fa-solid fa-ellipsis-vertical"></i></span> Capturar</strong></li></a>
+                            <li>
+                                <a class="link-SIG" href="">
+                            <li><strong><span><i class="fa-solid fa-ellipsis-vertical"></i></span> Consultar
+                                    prestamos</strong></li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <strong><span><i class="fa-solid fa-bars-staggered"></i></span> Tickets</strong>
+                    <span>
+                        <i class="fa-solid fa-chevron-up"></i>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="accordion-body-content">
+                        <ul>
+                            <a class="link-SIG" href="">
+                                <li><strong><span><i class="fa-solid fa-ellipsis-vertical"></i></span> Capturar</strong>
+                                </li>
+                            </a>
+                            <a class="link-SIG" href="">
+                                <li><strong><span><i class="fa-solid fa-ellipsis-vertical"></i></span> Abiertos</strong>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <strong><span><i class="fa-solid fa-building-columns"></i></span> Áreas</strong>
+                    <span>
+                        <i class="fa-solid fa-chevron-up"></i>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                </div>
+                <div class="accordion-body">
+                    <div class="accordion-body-content">
+                        <ul>
+                            <a class="link-SIG" href="">
+                                <li><strong><span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                        Consultar</strong></li>
+                            </a>
+                            <a class="link-SIG" href="">
+                                <li><strong><span><i class="fa-solid fa-ellipsis-vertical"></i></span> Capturar</strong>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script type="module" src="/dom/dashboard/dashboard.js"></script>
+<script type="module" src="/dom/dashboard/accordion.js"></script>
