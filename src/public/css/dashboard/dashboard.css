@@ -1,0 +1,68 @@
+body {
+    background-color: #ced4da;
+}
+
+.container-user {
+    border-left: 2px solid gray;
+    margin-left: 10px;
+    background-color: #eef2f7;
+    width: 20rem;
+    margin: -5px;
+}
+
+.name-user {
+    text-align: left;
+    font-size: medium;
+    color: #6c757d;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+.role-user {
+    color: #6c757d;
+    font-size: small;
+    font-weight: bold;
+}
+
+.text-canvas {
+    color: #eef2f7;
+}
+
+.box-center {
+    margin: 0;
+    transition: margin-left 0.4s ease;
+}
+
+.nav-expanded {
+    margin-left: 18rem;
+}
+
+img {
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.top-margin-zero{
+    margin-top: 0;
+    padding-top: 5px;
+    margin-left: 0;
+    padding-left: 5px;
+}
+
+.offcanvas-title {
+    margin-top: 10px;
+    border-bottom: 2px solid #eef2f7;
+}
+
+hr {
+    margin-top: -12px;
+    border: 1px solid;
+}
+
+.accordion-button {
+    background-color: #313a46;
+    border: none;
+    box-shadow: none;
+    color: #eef2f7;
+}
