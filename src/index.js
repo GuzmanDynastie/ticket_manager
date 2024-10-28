@@ -5,7 +5,8 @@ import { fileURLToPath } from 'url';
 import morgan from 'morgan'
 import dotenv from 'dotenv';
 import path from 'path';
-import userRoutes from './routes/user.routes.js'
+import userRoutes from './routes/user.routes.js';
+import dashboard from './routes/home.routes.js';
 
 
 const __filename = fileURLToPath(import.meta.url);
@@ -14,7 +15,6 @@ const __dirname = path.dirname(__filename);
 // Inicializations
 dotenv.config();
 const app = express();
-
 
 // Settings
 app.set('port', process.env.PORT || 5000);
@@ -37,6 +37,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 // Routes
 app.use(userRoutes);
+app.use(dashboard);
 
 // Static files
 app.use(express.static(path.join(__dirname, 'public')));
